@@ -20,8 +20,8 @@ modo dev
  - yarn dev (rodar modo dev)
 
 modo production
-yarn build
-yarn start
+- yarn build
+- yarn start
 
 modo analyzer
 - yarn analyze: client+server
