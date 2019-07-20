@@ -87,7 +87,7 @@ export const buscaFilmes: NextFuncComponent<PropsBuscaFilmes> = ({
 
 
 buscaFilmes.getInitialProps = async ({ query }) => {
-//	console.log('query', query.titulo);
+//	AQUI EU PODERIA CONSULTAR DIRETO A API da OMDB
 let fullFilme = [];
   if(query.titulo != undefined){
 	    const response = await fetch(`http://localhost:3000/api/filmes?titulo=${query.titulo}`)

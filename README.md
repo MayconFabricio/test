@@ -9,7 +9,7 @@ descricao: criar um SPA em React, onde seja possível realizar a busca de um fil
   + Usei um Analyzer no webpack (aka next.config) para ver o tamanho que ficou a bundle  
   - Não tive tempo de fazer com gerenciadores de estados como Redux, context API, mobX
   - Não tive tempo de aplicar os tests nos components com JEST
-
+  - Não tive tempo de tratar excessões.
 
 
 
@@ -27,3 +27,7 @@ modo analyzer
 - yarn analyze: client+server
 - yarn analyze:server": server
 - yarn analyze:browser" client
+
+Acessar em: 
+http://localhost:3000/filmes/
+ou http://localhost:3000/filmes/${titulodofilme}
