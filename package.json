@@ -44,7 +44,7 @@
         "typescript": "3.5.3",
         "typescript-plugin-styled-components": "^1.4.2",
         "url-loader": "1.1.2",
-        "yarn": "^1.17.3"
+        "yarn": "^1.22.0"
     },
     "license": "ISC"
 }
