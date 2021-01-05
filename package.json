@@ -10,7 +10,7 @@
         "analyze:browser": "BUNDLE_ANALYZE=browser next build"
     },
     "dependencies": {
-        "axios": "^0.18.0",
+        "axios": "^0.21.1",
         "compression": "^1.7.4",
         "isomorphic-unfetch": "^3.0.0",
         "koa": "^2.7.0",
